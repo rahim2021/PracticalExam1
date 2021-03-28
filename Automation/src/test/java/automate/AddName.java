@@ -21,8 +21,7 @@ public class AddName {
 	@Before
 	public void init() {
 
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Abderrahim\\Aug2020_selenium\\Automation\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Abderrahim\\Aug2020_selenium\\Automation\\Drivers\\chromedriver.exe");
 
 	}
 
@@ -35,6 +34,7 @@ public class AddName {
 		driver.get("https://techfios.com/test/101/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		Thread.sleep(5000);
+//		read
 	}
 
 	public void addName() {

@@ -20,8 +20,7 @@ public class ValidateCheckBox {
 	@Before
 	public void init() {
 
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Abderrahim\\Aug2020_selenium\\Automation\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Abderrahim\\Aug2020_selenium\\Automation\\Drivers\\chromedriver.exe");
 
 	}
 
